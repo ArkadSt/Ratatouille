@@ -1,1 +1,30 @@
 
+ul li {
+    float: left;
+    width: 20%;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    opacity: 0.9;
+    font-size: 20px;
+    background-color: lightgray;
+    color: black;
+}
+
+ul li a {
+    text-decoration: none; /* eemaldab joone hyperlinki alt */
+}
+
+table {
+    background-color: #a1a1a1;
+    width: 70%;
+}
+
+td {
+    font-size: xx-large;
+}
+
+th {
+    font-size: xx-large;
+    text-align: center;
+}
