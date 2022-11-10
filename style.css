@@ -84,3 +84,19 @@ ul li {
 ul li a {
     text-decoration: none; /* eemaldab joone hyperlinki alt */
 }
+
+#menu_table {
+    border: none;
+    background-color: #a1a1a1;
+    width: 70%;
+    box-shadow: none;
+}
+
+.menu_td {
+    font-size: xx-large;
+}
+
+.menu_th {
+    font-size: xx-large;
+    text-align: center;
+}
