@@ -63,3 +63,24 @@ iframe{
 #main .share .icon:hover{
     background: url(bg_share_active.png)
 }
+
+ul {
+
+    list-style: none;
+
+}
+ul li {
+    float: left;
+    width: 20%;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 50px;
+    opacity: 0.9;
+    font-size: 20px;
+    background-color: lightgray;
+    color: black;
+}
+
+ul li a {
+    text-decoration: none; /* eemaldab joone hyperlinki alt */
+}
