@@ -1,1 +1,65 @@
-
+body{
+    color:rgb(26, 32, 29);
+    background-color: rgb(239, 233, 233);
+}
+#main{
+    width: 1000px;
+}
+form{
+    width: 600px
+}
+#form{
+    width: 600px;
+    float: right;
+    margin-top: 80px;
+}
+table{
+    border: dotted 1px rgb(244, 239, 239);
+    background-color: rgb(241, 233, 224);
+    margin-top: 30px;
+    width: 600px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: solid 3px rgb(216, 192, 53);
+    box-shadow: 2px 3px 5px 3px rgb(255, 250, 176);
+}
+th{
+    text-align: right;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    vertical-align: top;
+    margin-top: 5px;
+}
+td{
+    padding-left: 10px;
+}
+iframe{
+    margin-left: 379px;
+    margin-top: 50px;
+    height: 400px;
+}
+#CONTACT{
+    float: left;
+    width:150px;
+    margin-left: 60px;
+}
+#CONTACT h1{
+    padding-bottom: 15px;
+}
+#main .share .icon{
+    background: url(bg_share.png) no-repeat;
+    cursor: pointer;
+    height: 20px;
+    width: 22px;
+    float:right;
+    text-align: center;
+    padding-top: 3px;
+    margin: 15px 3px
+}
+#main .share .icon:hover{
+    background: url(bg_share_active.png)
+}
