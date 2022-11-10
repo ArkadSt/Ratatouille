@@ -1,8 +1,12 @@
+ul {
 
+    list-style: none;
+
+}
 ul li {
     float: left;
     width: 20%;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
     line-height: 50px;
     opacity: 0.9;
