@@ -1,104 +1,104 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <title>Contact</title>
-    </head>
-    <body>
-    <div class="menu_container">
-        <ul class="menu">
-            <li><a href="main.html">Main Page</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Contact</title>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="main.html">Main Page</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div id="CONTACT">
+        <h1>CONTACTS</h1>
+        <h2>Adress</h2>
+        <p>Narva mnt 18</p>
+        <p>+372 5555 0000</p>
+        <h2>Tööaeg</h2>
+        <p>E - R 10:00 - 21:00</p>
+        <p>L, P 12:00 - 23:00</p>
     </div>
-        <div id="CONTACT">
-            <h1>CONTACTS</h1>
-            <h2>Adress</h2>
-            <p>Narva mnt 18</p>
-            <p>+372 5555 0000</p>
-            <h2>Tööaeg</h2>
-            <p>E - R 10:00 - 21:00</p>
-            <p>L, P 12:00 - 23:00</p>
+    
+    <div id="main">
+        <div id="form">
+            <form action="#">
+                <table >
+                    <tr>
+                        <th>
+                            <label for="name">Nimi, perekonnanimi:</label>
+                        </th>
+                        <td>
+                            <input type="text" name="nimi" id="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="email">Email:</label>
+                        </th>
+                        <td>
+                            <input type="text"  id="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th >
+                            <label for="date">Vali kuupaev</label>
+                        </th>
+                        <td>
+                            <input type="date"  id="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="aeg">Vali aeg</label>
+                        </th>
+                        <td>
+                            <select name="aeg" id="aeg">
+                                <option value="">12:00</option>
+                                <option value="">13:00</option>
+                                <option value="">14:00</option>
+                                <option value="">15:00</option>
+                                <option value="">16:00</option>
+                                <option value="">17:00</option>
+                                <option value="">18:00</option>
+                                <option value="">19:00</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="kom">Teie kommentaar</label>
+                        </th>
+                        <td>
+                            <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="Submit">
+                        </td>
+                    </tr>
+            
+                </table>
+            </form>
+        </div>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/d/embed?mid=1Dh0ycLCWpuhMbDhNR_jJRlpyVIuPWog&ehbc=2E312F" width="640" height="480"></iframe>
+        </div>
+        <div class="clear"></div>
+        <div class="share">
+            <div class="icon"><img src="facebook.png" alt="Facebook"></div>
+            <div class="icon"><img src="twitter.png" alt="Twitter"></div>
+            <div class="icon"><img src="pinterest.png" alt="Pinterest"></div>
+            <div class="icon"><img src="tumblr.png" alt="Tumblr"></div>
         </div>
 
-        <div id="main">
-            <div id="form">
-                <form action="#">
-                    <table >
-                        <tr>
-                            <th>
-                                <label for="name">Nimi, perekonnanimi:</label>
-                            </th>
-                            <td>
-                                <input type="text" name="nimi" id="name">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                <label for="email">Email:</label>
-                            </th>
-                            <td>
-                                <input type="text" name="" id="email">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th >
-                                <label for="date">Vali kuupaev</label>
-                            </th>
-                            <td>
-                                <input type="date" name="" id="date">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                <label for="aeg">Vali aeg</label>
-                            </th>
-                            <td>
-                                <select name="" id="">
-                                    <option value="">12:00</option>
-                                    <option value="">13:00</option>
-                                    <option value="">14:00</option>
-                                    <option value="">15:00</option>
-                                    <option value="">16:00</option>
-                                    <option value="">17:00</option>
-                                    <option value="">18:00</option>
-                                    <option value="">19:00</option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                <label for="kom">Teie kommentaar</label>
-                            </th>
-                            <td>
-                                <textarea name="" id="" cols="30" rows="10"></textarea>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="submit" value="Submit">
-                            </td>
-                        </tr>
-
-                    </table>
-                </form>
-            </div>
-            <div id="map">
-                <iframe src="https://www.google.com/maps/d/embed?mid=1Dh0ycLCWpuhMbDhNR_jJRlpyVIuPWog&ehbc=2E312F" width="640" height="480"></iframe>
-            </div>
-            <div class="clear"></div>
-            <div class="share">
-                <div class="icon"><img src="facebook.png" alt="Facebook"></div>
-                <div class="icon"><img src="twitter.png" alt="Twitter"></div>
-                <div class="icon"><img src="pinterest.png" alt="Pinterest"></div>
-                <div class="icon"><img src="tumblr.png" alt="Tumblr"></div>
-            </div>
-
-
-        </div>
-
-    </body>
+        
+    </div>
+ 
+        </body>
+        </html>
+</body>
 </html>
