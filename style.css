@@ -11,6 +11,13 @@ hr{
 #main{
     width: 1000px;
 }
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 form{
     width: 600px
 }
@@ -70,14 +77,14 @@ iframe{
     background: url(bg_share_active.png)
 }
 
-ul {
-
+ul.menu {
+    display: block;
+    margin: auto;
     list-style: none;
-
 }
-ul li {
+ul.menu li {
     float: left;
-    width: 24%;
+    width: 15%;
     border-radius: 20px;
     text-align: center;
     line-height: 50px;
@@ -87,8 +94,8 @@ ul li {
     color: black;
 }
 
-ul li a {
-    text-decoration: none; /* eemaldab joone hyperlinki alt */
+ul.menu li a {
+    text-decoration: none;
 }
 
 #menu_table {
