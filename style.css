@@ -77,25 +77,35 @@ iframe{
     background: url(bg_share_active.png)
 }
 
+.menu_container{
+    text-align: center;
+}
+
 ul.menu {
-    display: block;
-    margin: auto;
+    display: inline-block;
     list-style: none;
 }
 ul.menu li {
     float: left;
-    width: 15%;
-    border-radius: 20px;
+    width: 300px;
     text-align: center;
     line-height: 50px;
     opacity: 0.9;
     font-size: 20px;
     background-color: lightgray;
     color: black;
+
+}
+
+ul.menu li:hover{
+    background-color: darkgray;
+    transition: background-color 0.5s;
 }
 
 ul.menu li a {
     text-decoration: none;
+    color: black;
+    display: block;
 }
 
 #menu_table {
