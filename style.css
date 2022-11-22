@@ -108,17 +108,27 @@ ul.menu li a {
     display: block;
 }
 
-#menu_table {
+.menu_table {
+
     border: none;
     width: 100%;
     box-shadow: none;
     background-color: transparent;
 }
 
-.menu_td {
+.menu_td_left {
+    text-align: left;
     font-size: 30px;
     color: gray;
     font-style: italic;
+}
+
+.menu_td_right {
+    text-align: right;
+    font-size: 30px;
+    color: gray;
+    font-style: italic;
+    padding-right: 10px;
 }
 
 .menu_td_header {
@@ -128,8 +138,7 @@ ul.menu li a {
     font-weight: lighter;
     color: white;
     text-align: center;
-    padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 .container{
     margin: 75px 55px 0 55px;
