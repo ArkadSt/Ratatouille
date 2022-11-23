@@ -64,7 +64,7 @@ iframe{
     padding-bottom: 15px;
 }
 #main .share .icon{
-    background: url(bg_share.png) no-repeat;
+    background: url(images/bg_share.png) no-repeat;
     cursor: pointer;
     height: 20px;
     width: 22px;
@@ -74,7 +74,7 @@ iframe{
     margin: 15px 3px
 }
 #main .share .icon:hover{
-    background: url(bg_share_active.png)
+    background: url(images/bg_share_active.png)
 }
 
 .menu_container{
