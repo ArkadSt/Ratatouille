@@ -1,9 +1,143 @@
 body{
-    color:rgb(26, 32, 29);
-    background-color: rgb(239, 233, 233);
+    color:#1a201d;
+    background-color: #efe9e9;
     font-family: Verdana, sans-serif;
 }
 
+.menu_container{
+    position: fixed;
+    z-index: 1000;
+    text-align: center;
+    width: 100%;
+}
+
+.menu_container ul{
+
+    display: inline-block;
+    list-style: none;
+}
+.menu_container ul li {
+
+    float: left;
+    width: 300px;
+    text-align: center;
+    line-height: 50px;
+    opacity: 0.9;
+    font-size: 20px;
+    background-color: lightgray;
+    color: black;
+
+}
+
+.menu_container ul li:hover{
+    background-color: darkgray;
+    transition: background-color 0.5s;
+}
+
+.menu_container ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.logo{
+    width: 800px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section p{
+    margin: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+section img{
+    width: 500px;
+}
+
+section:nth-child(2){
+    background: url("images/victoria-poveda-_8yXaGNIq0E-unsplash.jpg") no-repeat;
+}
+section:nth-child(3){
+    color: #595957;
+    background: #efe9e9;
+}
+section:nth-child(4){
+    background: white;
+    color: #595957;
+}
+
+section .container{
+    margin: 100px;
+}
+section h1{
+    font-size: 3rem;
+    margin: 20px;
+}
+section h2{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+section .text-container{
+    display: flex;
+}
+section:nth-child(3) .text-container .text-box{
+    margin: 20px;
+    padding: 20px;
+    background: white;
+}
+section:nth-child(4) .text-container .text-box{
+    margin: 20px;
+    padding: 20px;
+    background: #efe9e9;
+}
+
+section .text-container .text-box h3{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.thumbnails{
+    width: 500px;
+}
+
+@media (max-width: 900px){
+    section h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    section .text-container{
+        flex-direction: column;
+    }
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
 hr{
     color: transparent;
 }
@@ -24,9 +158,9 @@ form{
 #form{
     width: 600px;
     float: right;
-    margin-top: 80px;
+    margin-top: 100px;
 }
-table{
+.book_table_table{
     border: dotted 1px rgb(244, 239, 239);
     background-color: rgb(241, 233, 224);
     margin-top: 30px;
@@ -36,7 +170,7 @@ table{
     border: solid 3px rgb(216, 192, 53);
     box-shadow: 2px 3px 5px 3px rgb(255, 250, 176);
 }
-th{
+.book_table_table th{
     text-align: right;
     font-weight: normal;
     font-size: 16px;
@@ -47,7 +181,7 @@ th{
     vertical-align: top;
     margin-top: 5px;
 }
-td{
+.book_table_table td{
     padding-left: 10px;
 }
 iframe{
@@ -59,6 +193,7 @@ iframe{
     float: left;
     width:150px;
     margin-left: 60px;
+    margin-top: 100px
 }
 #CONTACT h1{
     padding-bottom: 15px;
@@ -75,37 +210,6 @@ iframe{
 }
 #main .share .icon:hover{
     background: url(images/bg_share_active.png)
-}
-
-.menu_container{
-    text-align: center;
-}
-
-ul.menu {
-    display: inline-block;
-    list-style: none;
-}
-ul.menu li {
-    float: left;
-    width: 300px;
-    text-align: center;
-    line-height: 50px;
-    opacity: 0.9;
-    font-size: 20px;
-    background-color: lightgray;
-    color: black;
-
-}
-
-ul.menu li:hover{
-    background-color: darkgray;
-    transition: background-color 0.5s;
-}
-
-ul.menu li a {
-    text-decoration: none;
-    color: black;
-    display: block;
 }
 
 .menu_table {
@@ -140,10 +244,10 @@ ul.menu li a {
     text-align: center;
     padding-top: 50px;
 }
-.container{
+.gallery_container{
     margin: 75px 55px 0 55px;
 }
-.container h2{
+.gallery_container h2{
     text-decoration-line: underline;
     letter-spacing: 15px;
     font-size: 50px;
