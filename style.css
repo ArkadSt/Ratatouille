@@ -60,7 +60,7 @@ section{
 
 section p{
     margin: 50px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -69,7 +69,8 @@ section img{
 }
 
 section:nth-child(2){
-    background: url("images/victoria-poveda-_8yXaGNIq0E-unsplash.jpg") no-repeat;
+    background: url("images/andy-vult-ASbxmrhbTKM-unsplash.jpg") no-repeat;
+    background-size: 100%;
 }
 section:nth-child(3){
     color: #595957;
@@ -285,7 +286,7 @@ iframe{
 .menu_names{
     font-size: 30px;
     color: rgb(79, 15, 15);
-    font-style: bold; 
+    font-weight: bold;
     font-family: Georgia serif;    
 }
 .menu_veinid{
@@ -294,7 +295,7 @@ iframe{
 }
 .menu_vein{
     font-size: 33px;
-    font-style: bold;
+    font-weight: bold;
     color: rgb(43, 26, 75);
     font-family: Georgia serif
 }
@@ -307,7 +308,7 @@ iframe{
 .menu_price{
     font-size: 27px;
     color: rgb(60, 59, 81);
-    font-style: bold;
-    font-family: Georgia serif
+    font-weight: bold;
+    font-family: Georgia serif;
 }
 
