@@ -33,7 +33,7 @@ form{
     width: 600px;
     padding-top: 15px;
     padding-bottom: 15px;
-    border: solid 3px rgb(140, 53, 216);
+    border: solid 3px rgb(79, 69, 98);
     box-shadow: 2px 3px 3px 2px rgb(235, 244, 108);
 }
 th{
@@ -195,13 +195,13 @@ ul.menu li a {
 }
 .menu_contain{
     font-size: 25px;
-    color: rgb(109, 91, 91);
+    color: rgb(78, 62, 62);
     font-style: italic;
     font-family: Georgia serif
 }
 .menu_price{
     font-size: 27px;
-    color: rgb(29, 27, 61);
+    color: rgb(60, 59, 81);
     font-style: bold;
     font-family: Georgia serif
 }
