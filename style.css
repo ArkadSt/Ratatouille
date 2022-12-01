@@ -57,21 +57,29 @@ section{
     justify-content: center;
     align-items: center;
 }
+
+section p{
+    margin: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+section img{
+    width: 500px;
+}
+
 section:nth-child(2){
-    color: #e0ffff;
+    background: url("images/victoria-poveda-_8yXaGNIq0E-unsplash.jpg") no-repeat;
 }
 section:nth-child(3){
-    color: #42455a;
-    background: #e0ffff;
+    color: #595957;
+    background: #efe9e9;
 }
 section:nth-child(4){
-    background: #ffd6b5;
-    color: #42455a;
+    background: white;
+    color: #595957;
 }
-section:nth-child(5){
-    color: #42455a;
-    background: #fffeb5;
-}
+
 section .container{
     margin: 100px;
 }
@@ -87,11 +95,17 @@ section h2{
 section .text-container{
     display: flex;
 }
-section .text-container .text-box{
+section:nth-child(3) .text-container .text-box{
     margin: 20px;
     padding: 20px;
-    background: #cccccc;
+    background: white;
 }
+section:nth-child(4) .text-container .text-box{
+    margin: 20px;
+    padding: 20px;
+    background: #efe9e9;
+}
+
 section .text-container .text-box h3{
     font-size: 30px;
     text-align: center;
