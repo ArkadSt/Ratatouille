@@ -160,6 +160,7 @@ form{
     float: right;
     margin-top: 100px;
 }
+
 .book_table_table{
     border: dotted 1px rgb(244, 239, 239);
     background-color: rgb(241, 233, 224);
@@ -167,8 +168,8 @@ form{
     width: 600px;
     padding-top: 15px;
     padding-bottom: 15px;
-    border: solid 3px rgb(216, 192, 53);
-    box-shadow: 2px 3px 5px 3px rgb(255, 250, 176);
+    border: solid 3px rgb(79, 69, 98);
+    box-shadow: 2px 3px 3px 2px rgb(235, 244, 108);
 }
 .book_table_table th{
     text-align: right;
@@ -221,7 +222,7 @@ iframe{
 }
 
 .menu_td_left {
-    text-align: left;
+    
     font-size: 30px;
     color: gray;
     font-style: italic;
@@ -235,14 +236,16 @@ iframe{
     padding-right: 10px;
 }
 
-.menu_td_header {
+.menu_header {
     text-decoration-line: underline;
     letter-spacing: 15px;
+    font-family: Georgia serif;
     font-size: 50px;
     font-weight: lighter;
-    color: white;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 7px rgb(20, 1, 65), -1px -2px 3px rgb(19, 8, 35);
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 .gallery_container{
     margin: 75px 55px 0 55px;
@@ -272,6 +275,39 @@ iframe{
     padding-top: 7px;
     padding-bottom: 7px;
 }
-
-
+#containermenu{
+    text-align: center;
+    
+}
+.menu_dish{
+    margin-bottom: 25px;
+}
+.menu_names{
+    font-size: 30px;
+    color: rgb(79, 15, 15);
+    font-style: bold; 
+    font-family: Georgia serif;    
+}
+.menu_veinid{
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.menu_vein{
+    font-size: 33px;
+    font-style: bold;
+    color: rgb(43, 26, 75);
+    font-family: Georgia serif
+}
+.menu_contain{
+    font-size: 25px;
+    color: rgb(78, 62, 62);
+    font-style: italic;
+    font-family: Georgia serif
+}
+.menu_price{
+    font-size: 27px;
+    color: rgb(60, 59, 81);
+    font-style: bold;
+    font-family: Georgia serif
+}
 
