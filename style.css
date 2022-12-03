@@ -169,7 +169,6 @@ form{
     padding-top: 15px;
     padding-bottom: 15px;
     border: solid 3px rgb(79, 69, 98);
-    box-shadow: 2px 3px 3px 2px rgb(235, 244, 108);
 }
 .book_table_table th{
     text-align: right;
@@ -245,7 +244,8 @@ iframe{
     color: rgb(255, 255, 255);
     text-shadow: 2px 3px 7px rgb(20, 1, 65), -1px -2px 3px rgb(19, 8, 35);
     text-align: center;
-    padding-top: 30px;
+    padding-top: 60px;
+    padding-bottom: 6px;
 }
 .gallery_container{
     margin: 75px 55px 0 55px;
@@ -277,7 +277,6 @@ iframe{
 }
 #containermenu{
     text-align: center;
-    
 }
 .menu_dish{
     margin-bottom: 25px;
@@ -286,28 +285,33 @@ iframe{
     font-size: 30px;
     color: rgb(79, 15, 15);
     font-style: bold; 
-    font-family: Georgia serif;    
+    font-family: Georgia serif; 
+    padding-top: 12px;   
 }
 .menu_veinid{
     padding-bottom: 2px;
-    padding-top: 2px;
+    padding-top: 10px;
 }
 .menu_vein{
     font-size: 33px;
     font-style: bold;
     color: rgb(43, 26, 75);
-    font-family: Georgia serif
+    font-family: Georgia serif;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 .menu_contain{
     font-size: 25px;
     color: rgb(78, 62, 62);
     font-style: italic;
-    font-family: Georgia serif
+    font-family: Georgia serif;
+    padding-top: 7px;
 }
 .menu_price{
     font-size: 27px;
     color: rgb(60, 59, 81);
     font-style: bold;
-    font-family: Georgia serif
+    font-family: Georgia serif;
+    padding-top: 7px;
 }
 
