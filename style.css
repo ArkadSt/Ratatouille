@@ -191,22 +191,26 @@ iframe{
 }
 #CONTACT{
     float: left;
-    width:150px;
+    width:180px;
     margin-left: 60px;
     margin-top: 100px
 }
 #CONTACT h1{
     padding-bottom: 15px;
 }
+#CONTACT h2{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
 #main .share .icon{
     background: url(images/bg_share.png) no-repeat;
     cursor: pointer;
-    height: 20px;
+    height: 22px;
     width: 22px;
     float:right;
     text-align: center;
     padding-top: 3px;
-    margin: 15px 3px
+    margin: 15px 3px;
 }
 #main .share .icon:hover{
     background: url(images/bg_share_active.png)
