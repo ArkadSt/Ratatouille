@@ -163,14 +163,12 @@ form{
 }
 
 .book_table_table{
-    border: dotted 1px rgb(244, 239, 239);
     background-color: rgb(241, 233, 224);
     margin-top: 30px;
     width: 600px;
     padding-top: 15px;
     padding-bottom: 15px;
     border: solid 3px rgb(79, 69, 98);
-    box-shadow: 2px 3px 3px 2px rgb(235, 244, 108);
 }
 .book_table_table th{
     text-align: right;
@@ -278,7 +276,7 @@ iframe{
 }
 #containermenu{
     text-align: center;
-    
+    padding-top: 5%;
 }
 .menu_dish{
     margin-bottom: 25px;
