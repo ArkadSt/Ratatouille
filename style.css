@@ -212,49 +212,28 @@ iframe{
     background: url(images/bg_share_active.png)
 }
 
-.menu_table {
-
-    border: none;
-    width: 100%;
-    box-shadow: none;
-    background-color: transparent;
-}
-
-.menu_td_left {
-    
-    font-size: 30px;
-    color: gray;
-    font-style: italic;
-}
-
-.menu_td_right {
-    text-align: right;
-    font-size: 30px;
-    color: gray;
-    font-style: italic;
-    padding-right: 10px;
-}
 
 .menu_header {
     text-decoration-line: underline;
     letter-spacing: 15px;
     font-family: Georgia serif;
     font-size: 50px;
-    font-weight: lighter;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 3px 7px rgb(20, 1, 65), -1px -2px 3px rgb(19, 8, 35);
+    //font-weight: lighter;
+    color: #919191;
     text-align: center;
+    padding-bottom: 10px;
     padding-top: 30px;
 }
 .gallery_container{
     margin: 75px 55px 0 55px;
 }
 .gallery_container h2{
+    font-family: Georgia serif;
     text-decoration-line: underline;
     letter-spacing: 15px;
     font-size: 50px;
-    font-weight: lighter;
-    color: white;
+    //font-weight: lighter;
+    color: #919191;
     text-align: center;
     padding-bottom: 10px;
     padding-top: 20px;
