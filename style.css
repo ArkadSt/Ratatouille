@@ -118,16 +118,6 @@ section .text-container .text-box h3{
     width: 500px;
 }
 
-@media (max-width: 900px){
-    section h1{
-        font-size: 2rem;
-        text-align: center;
-    }
-    section .text-container{
-        flex-direction: column;
-    }
-}
-
 .reveal{
     position: relative;
     transform: translateY(150px);
@@ -162,7 +152,7 @@ form{
     margin-top: 100px;
 }
 
-.book_table_table{
+#book_table_table{
     background-color: rgb(241, 233, 224);
     margin-top: 30px;
     width: 600px;
@@ -170,7 +160,7 @@ form{
     padding-bottom: 15px;
     border: solid 3px rgb(79, 69, 98);
 }
-.book_table_table th{
+#book_table_table th{
     text-align: right;
     font-weight: normal;
     font-size: 16px;
@@ -181,7 +171,7 @@ form{
     vertical-align: top;
     margin-top: 5px;
 }
-.book_table_table td{
+#book_table_table td{
     padding-left: 10px;
 }
 iframe{
