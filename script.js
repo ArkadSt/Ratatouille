@@ -17,3 +17,7 @@ function reveal() {
 window.addEventListener("scroll", reveal);
 
 //allikas: https://alvarotrigo.com/blog/css-animations-scroll/
+
+/*
+pmst see kood annab või eemaldab ".active" nende elementide jaoks, millel on ".reveal" klass. See toimub siis, kui need elemendid sisenevad vaatealasse.
+ */
