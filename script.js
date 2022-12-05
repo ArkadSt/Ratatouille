@@ -16,3 +16,4 @@ function reveal() {
 
 window.addEventListener("scroll", reveal);
 
+//allikas: https://alvarotrigo.com/blog/css-animations-scroll/
